@@ -2,18 +2,17 @@ package main;
 
 import inputs.KeyboardInputs;
 import inputs.MouseInputs;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 public class GamePanel extends JPanel {
 
     private MouseInputs mouseInputs;
-    private int xDelta = 100, yDelta = 100;
+    private int xDelta = 100;
+    private int yDelta = 100;
 
-    private int xDir = 1, yDir = 1;
+    private int xDir = 1;
+    private int yDir = 1;
 
     private int frames = 0;
 
